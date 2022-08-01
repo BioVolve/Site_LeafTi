@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+/*font-family: 'Jura', sans-serif;
+font-family: 'Lexend', sans-serif;*/
+
+body{
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    color: #1C6119;
+    
+}
+.nav{
+    margin-left: 100px;
+    margin-top: 65px;
+    background-color: blue;
+    width: 1000px;
+}
+.logo{
+    background-color: blueviolet;
+    width: 310px;
+    font-size: 70px;
+    font-family: 'Jura', sans-serif;
+
+}
+
+#logo-nav{
+    width: 75px;
+    height: 75px;
+}
+
+.botoes{
+    background-color: crimson;
+}
