@@ -9,8 +9,10 @@ font-family: 'Lexend', sans-serif;*/
 body{
     position: relative;
     height: 1440px;
+    width: 98%;
     background-repeat: no-repeat;
     color: #1C6119;
+  
 }
 .nav{
     margin-top: 65px;
@@ -38,11 +40,87 @@ body{
     font-family: 'Lexend', sans-serif;
     font-size: 50px;
 }
-button{
+button.n{
     background: transparent;
     border: transparent;
     font-family: 'Lexend', sans-serif;
     color: #1C6119;
     font-size:55%;
 }
+
+a {
+    color: #1C6119;
+    text-decoration: none;
+}
 /*padrao do site*/
+
+/*parte dos textos*/
+main{
+    position: absolute;
+    margin-left: 100px;
+    width: 585px;
+    height: 340px;
+    left: 80px;
+    top: 380px;
+}
+
+main div {
+    margin-bottom: 20px;
+}
+.titulo{
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 100px;
+}
+.subtitulo{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+}
+.subsubtitulo{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: #4DAD49;
+}
+/*parte dos textos*/
+
+/*botao download*/
+.download{
+    position: absolute;
+    width: 350px;
+    height: 75px;
+    left: 545px;
+    top: 800px;
+    filter: drop-shadow(0px 5px 20px rgba(28, 97, 25, 0.5));
+}
+button.d{
+    border: none;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #D2ECB3;
+    background: #4DAD49;
+    border-radius: 10px;
+    align-items: center;
+}
+button img {
+    margin-left: 30px;
+}
+
+.btnDownload .d:hover {
+    background-color: linear-gradient(to right, #56AB2F, #1C6119);
+}

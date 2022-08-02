@@ -4,6 +4,7 @@
 /*font-family: 'Jura', sans-serif;
 font-family: 'Lexend', sans-serif;*/
 
+/*padrao do site*/
 body{
     position: relative;
     height: 1440px;
@@ -43,3 +44,8 @@ button{
     color: #1C6119;
     font-size:55%;
 }
+button a {
+    color: #1C6119;
+    text-decoration: none;
+}
+/*padrao do site*/
