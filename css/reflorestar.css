@@ -4,6 +4,7 @@
 /*font-family: 'Jura', sans-serif;
 font-family: 'Lexend', sans-serif;*/
 
+/*padrao do site*/
 body{
     position: relative;
     height: 1440px;
@@ -43,3 +44,43 @@ button{
     color: #1C6119;
     font-size:55%;
 }
+button a {
+    color: #1C6119;
+    text-decoration: none;
+}
+a {
+    color: #1C6119;
+    text-decoration: none;
+}
+/*padrao do site*/
+
+/*parte dos textos*/
+main{
+    margin-left: 100px;
+    position: absolute;
+    width: 486px;
+    height: 234px;
+    left: 100px;
+    top: 380px;
+}
+.titulo{
+    margin-bottom: 20px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 97px;
+    color: #1C6119;
+}
+.subtitulo{
+
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #1C6119;
+
+}
+/*parte dos textos*/
