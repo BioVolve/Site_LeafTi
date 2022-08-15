@@ -122,5 +122,9 @@ button img {
 }
 
 .btnDownload .d:hover {
-    background-color: linear-gradient(to right, #56AB2F, #1C6119);
+    background-color: #1C6119;
+}
+
+.btnDownload .d:active{
+    background-color: #56AB2F;
 }
