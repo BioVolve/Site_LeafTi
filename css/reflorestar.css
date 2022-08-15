@@ -7,10 +7,12 @@ font-family: 'Lexend', sans-serif;*/
 /*padrao do site*/
 body{
     position: relative;
-    height: 1440px;
+    width: 98%;
+    height: 1024;
     background-repeat: no-repeat;
     color: #1C6119;
 }
+
 .nav{
     margin-top: 65px;
     /*background-color: blue;*/
