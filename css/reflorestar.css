@@ -5,6 +5,9 @@
 font-family: 'Lexend', sans-serif;*/
 
 /*padrao do site*/
+*{
+    box-sizing: border-box;
+}
 body{
     position: relative;
     width: 98%;
@@ -32,6 +35,9 @@ body{
 #logo-nav{
     width: 75px;
     height: 75px;
+}
+button{
+    cursor: pointer;
 }
 .botoes{
     margin-right: 200px;
@@ -86,3 +92,49 @@ main{
 
 }
 /*parte dos textos*/
+
+/*cards*/
+.slider-container {
+    font-family: 'Lexend', sans-serif;
+    max-width: 740px;
+    width: 100%;
+    margin-left: 1000px;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+.titulo-card{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 40px;
+}
+.card{
+    box-shadow: 0px 5px 20px rgba(28, 97, 25, 0.5);
+    border-radius: 25px;
+    background-color: #D2ECB3;
+    width: 550px;
+    height: 650px;
+}
+.descricao-card{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 56px;
+    margin-right: 56px;
+    margin-top: 40px;
+}
+.slide-content{
+    margin: 0 40px;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 15px;
+}

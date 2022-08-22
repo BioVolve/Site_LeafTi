@@ -12,7 +12,6 @@ body{
     width: 98%;
     background-repeat: no-repeat;
     color: #1C6119;
-  
 }
 .nav{
     margin-top: 65px;
@@ -33,6 +32,9 @@ body{
 #logo-nav{
     width: 75px;
     height: 75px;
+}
+button{
+    cursor: pointer;
 }
 .botoes{
     margin-right: 200px;

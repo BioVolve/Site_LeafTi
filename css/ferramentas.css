@@ -33,6 +33,9 @@ body{
     width: 75px;
     height: 75px;
 }
+button{
+    cursor: pointer;
+}
 .botoes{
     margin-right: 200px;
     /*background-color: crimson;*/
