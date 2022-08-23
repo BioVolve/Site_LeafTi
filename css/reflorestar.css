@@ -95,16 +95,19 @@ main{
 
 /*cards*/
 .slider-container {
+    align-items: center;
+    justify-content: center;
     font-family: 'Lexend', sans-serif;
     max-width: 740px;
     width: 100%;
     margin-left: 1000px;
     margin-top: 70px;
-    align-items: center;
-    justify-content: center;
     border: 1px solid black;
     padding: 10px;
+    display: inline-block;
 }
+
+
 .titulo-card{
     font-family: 'Lexend';
     font-style: normal;
@@ -114,6 +117,8 @@ main{
     margin-top: 40px;
 }
 .card{
+    align-items: center;
+    justify-content: center;
     box-shadow: 0px 5px 20px rgba(28, 97, 25, 0.5);
     border-radius: 25px;
     background-color: #D2ECB3;
@@ -137,4 +142,23 @@ main{
     flex-direction: column;
     align-items: center;
     padding: 15px 15px;
+}
+.botao-card{
+    display: inline-block;
+}
+.button-left{
+    display: inline-block;
+    position: absolute;
+    left: 52%;
+    right: 85.14%;
+    top: 55%;
+
+}
+.button-right{
+    display: inline-block;
+    position: absolute;
+    left: 85.5%;
+    right: 10%;
+    top: 55%;
+
 }
