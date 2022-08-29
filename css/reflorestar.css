@@ -128,7 +128,8 @@ main{
     font-size: 40px;
     line-height: 50px;
     margin-top: 50px;
-    margin-left: 70px;
+    
+    text-align: center;
 }
 
 p{
@@ -152,4 +153,4 @@ ul{
 li{ 
     margin-bottom: 5px;
 }
-
+/*cards*/
