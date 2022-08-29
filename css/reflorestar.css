@@ -94,19 +94,32 @@ main{
 /*parte dos textos*/
 
 /*cards*/
-.slider-container {
-    align-items: center;
-    justify-content: center;
-    font-family: 'Lexend', sans-serif;
-    max-width: 740px;
-    width: 100%;
-    margin-left: 1000px;
-    margin-top: 70px;
-    border: 1px solid black;
-    padding: 10px;
-    display: inline-block;
+.carousel{
+    margin-left: 650px;
+}
+.swiper {
+    margin-top: 95px;
 }
 
+.swiper {
+    width: 550px;
+    height: 650px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 550px;
+    height: 650px;
+    background-color: #D2ECB3;
+    border-radius: 25px;
+    box-shadow: 0px 5px 20px rgba(28, 97, 25, 0.5)
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
 
 .titulo-card{
     font-family: 'Lexend';
@@ -114,51 +127,29 @@ main{
     font-weight: 600;
     font-size: 40px;
     line-height: 50px;
-    margin-top: 40px;
+    margin-top: 50px;
+    margin-left: 70px;
 }
-.card{
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 5px 20px rgba(28, 97, 25, 0.5);
-    border-radius: 25px;
-    background-color: #D2ECB3;
-    width: 550px;
-    height: 650px;
-}
-.descricao-card{
+
+p{
+    font-family: 'Lexend';
     font-style: normal;
     font-weight: 300;
     font-size: 25px;
     text-align: justify;
     margin-left: 56px;
     margin-right: 56px;
-    margin-top: 40px;
+    margin-top: 30px;
+    padding: 20px;
 }
-.slide-content{
-    margin: 0 40px;
+ul{
+    font-family: 'Lexend';
+    margin-left: 35px;
+    font-style: normal;
+    font-size: 22px;
+    margin-top: -45px;
 }
-.card-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px 15px;
+li{ 
+    margin-bottom: 5px;
 }
-.botao-card{
-    display: inline-block;
-}
-.button-left{
-    display: inline-block;
-    position: absolute;
-    left: 52%;
-    right: 85.14%;
-    top: 55%;
 
-}
-.button-right{
-    display: inline-block;
-    position: absolute;
-    left: 85.5%;
-    right: 10%;
-    top: 55%;
-
-}
