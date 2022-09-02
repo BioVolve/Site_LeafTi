@@ -59,55 +59,27 @@ a {
 }
 /*padrao do site*/
 
-/*slider*/
-div .swiper{
-    display: inline-block;
-}
 .swiper {
     width: 1180px;
     height: 650px;
-    margin-top: 100px;
-    background-color: #D2ECB3;
-    border-radius: 30px;
+  }
+
+  .swiper-slide {
     text-align: center;
-    box-shadow: 0px 5px 20px rgba(28, 97, 25, 0.5);
-   
+    font-size: 18px;
+    background:transparent;
+    
+  }
+
+  .swiper-slide img {
+    display: flex;
+    width: 100%;
+    height:100%;
   }
 
   .swiper {
-    margin-left: auto;
-    margin-right: auto;
+      margin-top: 100px;
   }
 
-.left{
-    text-align: left;
-    left: 13.92%;
-    right: 61.86%;
-    top: 28%;
-    bottom: 18.46%;
-    margin-left: 80px;
-
-    font-family: 'Lexend';
-    font-style:normal;
-    font-weight: 300;
-    font-size: 40px;
-    line-height: 50px;
-
-    color: #1C6119;
-}
-.right{
-    text-align: right;
-}
-.cell-not{
-    margin-top: -410px;
-    margin-left: 30px;
-
-}
-
-h3{
-    font-family: 'Jura';
-}
-h1{
-    font-family: 'Lexend';
-}
-/*slider*/
+  .swiper-pagination{
+  }
