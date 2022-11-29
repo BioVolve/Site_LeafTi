@@ -7,17 +7,21 @@ font-family: 'Lexend', sans-serif;*/
 /*padrao do site*/
 *{
     box-sizing: border-box;
+    margin:0;
 }
 body{
     position: relative;
     width: 98%;
-    height: 1024;
+    height: 190vh;
     background-repeat: no-repeat;
     color: #1C6119;
+    overflow-x:hidden ;
 }
 
+
+
 .nav{
-    margin-top: 65px;
+    margin-top: 6vh;
     /*background-color: blue;*/
     width: 100%;
     flex-direction: row;
@@ -26,9 +30,8 @@ body{
     align-items: center;
 }
 .logo{
-    margin-left: 200px;
-    /*background-color: blueviolet;*/
-    width: 400px;
+    margin-left: 10vh;
+    width: 70%;
     font-size: 90px;
     font-family: 'Jura', sans-serif;
 }
@@ -40,10 +43,10 @@ button{
     cursor: pointer;
 }
 .botoes{
-    margin-right: 200px;
+    width: 80%;
     /*background-color: crimson;*/
     font-family: 'Lexend', sans-serif;
-    font-size: 50px;
+    font-size: 6vh;
 }
 button{
     background: transparent;
@@ -63,29 +66,36 @@ a {
 /*padrao do site*/
 
 /*parte dos textos*/
-main{
-    margin-left: 100px;
-    position: absolute;
-    width: 486px;
-    height: 234px;
-    left: 100px;
-    top: 380px;
+.main{
+    display: flex;
+    width: 100%;
+    margin-left: 5vw;
+
 }
+
+.info{
+    width: 50%;
+    display: grid;
+}
+
+
 .titulo{
-    margin-bottom: 20px;
+    width: 50%;
+    height: 1vh;
+    margin-top: 40vh;
     font-family: 'Jura';
     font-style: normal;
-    font-weight: 600;
-    font-size: 90px;
-    line-height: 97px;
+    font-weight: bold;
+    font-size: 15vh;
     color: #1C6119;
 }
 .subtitulo{
-
+    width: 100%;
+    margin-top: -20vh;
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 300;
-    font-size: 32px;
+    font-size: 4vh;
     line-height: 40px;
 
     color: #1C6119;
@@ -95,21 +105,24 @@ main{
 
 /*cards*/
 .carousel{
-    margin-left: 650px;
+    width: 40%;
+    margin-left: 6vh;
 }
 .swiper {
     margin-top: 95px;
 }
 
 .swiper {
-    width: 550px;
+    width: 100%;
     height: 650px;
-  }
+}
+
+
 
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 550px;
+    width: 55px;
     height: 650px;
     background-color: #D2ECB3;
     border-radius: 25px;
@@ -125,7 +138,7 @@ main{
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 4vh;
     line-height: 50px;
     margin-top: 50px;
     
@@ -136,8 +149,7 @@ p{
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 300;
-    font-size: 25px;
-    text-align: justify;
+    font-size: 3vh;
     margin-left: 56px;
     margin-right: 56px;
     margin-top: 30px;
@@ -145,7 +157,7 @@ p{
 }
 ul{
     font-family: 'Lexend';
-    margin-left: 35px;
+    margin-left: 2vh;
     font-style: normal;
     font-size: 22px;
     margin-top: -45px;

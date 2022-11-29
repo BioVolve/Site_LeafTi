@@ -11,8 +11,7 @@
     <title>LeafTi - Reflorestar</title>
 </head>
 <body background="img/background-reflorestar.png">
-    
-        
+
         <div class="nav">
             <div class="logo">
                 <a href="index.html">
@@ -27,71 +26,74 @@
                 <button class="n"><a href="central.html">Central de Ajuda</a></button>
             </div>
         </div>
-        <main>
-            <div class="titulo">
-                Refloreste
+        <div class="main">
+            <div class="info">
+                <div class="titulo">
+                    Refloreste
+                </div>
+                <div class="subtitulo">
+                    Entenda o porquê é importante sua contribuição  ativa para o meio ambiente
+                </div>
             </div>
-            <div class="subtitulo">
-                Entenda o porquê é importante sua contribuição  ativa para o meio ambiente
+            <!-- Swiper -->
+
+        <div class="carousel">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <h2 class="titulo-card">Porquê reflorestar?</h2>
+                    <p class="descricao-card">
+                        O reflorestamento é uma atitude ambiental que visa recuperar áreas que por forças naturais ou humanas perderam sua vegetação. 
+                        Uma das causas mais preocupantes são os incêndios florestais, que destroem de forma agressiva, além das árvores nativas, 
+                        toda a biodiversidade, causando impacto no clima local e global, lançando enormes quantidades de CO2 na atmosfera.
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="titulo-card">Benefícios de reflorestar:</h2>
+                    <p class="descricao-card">
+                        <ul>
+                            <li>Melhora a qualidade do ar;</li>
+                            <li>Diminuição de poluição sonora;</li>
+                            <li>Aumenta a biodiversidade;</li>
+                            <li>Equilíbrio natural no conforto térmico;</li>
+                            <li>Redução da erosão;</li>
+                            <li>Recuperação de áreas degradadas;</li>
+                            <li>Melhora a vazão de mananciais hídricos;</li>
+                            <li>Diminui a pressão em florestas nativas.</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="titulo-card">Onde reflorestar?</h2>
+                    <p class="descricao-card">
+                        Existem diversas organizações que promovem o reflorestamento pelos solos brasileiros. Não sei o que por aqui ainda blá blá blá.
+                    </p>
+                </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
-        </main>
-         <!-- Swiper -->
-    <div class="carousel">
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <h2 class="titulo-card">Porquê reflorestar?</h2>
-                <p class="descricao-card">
-                    O reflorestamento é uma atitude ambiental que visa recuperar áreas que por forças naturais ou humanas perderam sua vegetação. 
-                    Uma das causas mais preocupantes são os incêndios florestais, que destroem de forma agressiva, além das árvores nativas, 
-                    toda a biodiversidade, causando impacto no clima local e global, lançando enormes quantidades de CO2 na atmosfera.
-                </p>
-            </div>
-            <div class="swiper-slide">
-                <h2 class="titulo-card">Benefícios de reflorestar:</h2>
-                <p class="descricao-card">
-                    <ul>
-                        <li>Melhora a qualidade do ar;</li>
-                        <li>Diminuição de poluição sonora;</li>
-                        <li>Aumenta a biodiversidade;</li>
-                        <li>Equilíbrio natural no conforto térmico;</li>
-                        <li>Redução da erosão;</li>
-                        <li>Recuperação de áreas degradadas;</li>
-                        <li>Melhora a vazão de mananciais hídricos;</li>
-                        <li>Diminui a pressão em florestas nativas.</li>
-                    </ul>
-                </p>
-            </div>
-            <div class="swiper-slide">
-                <h2 class="titulo-card">Onde reflorestar?</h2>
-                <p class="descricao-card">
-                    Existem diversas organizações que promovem o reflorestamento pelos solos brasileiros. Não sei o que por aqui ainda blá blá blá.
-                </p>
-            </div>
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
         </div>
-    </div>
-      <!-- Swiper JS -->
-      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-  
-      <!-- Initialize Swiper -->
-      <script>
-        var swiper = new Swiper(".mySwiper", {
-          effect: "flip",
-          grabCursor: true,
-          loop: true,
-          pagination: {
-            el: ".swiper-pagination",
-          },
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
-        });
-      </script>
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+            effect: "flip",
+            grabCursor: true,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            });
+        </script>
+        </div>    
 </body>
 
 </html>

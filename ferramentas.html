@@ -34,23 +34,24 @@
         </div>
     </main>
     <!-- Swiper -->
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="img/ferramentas1(2).png"></div>
-          <div class="swiper-slide"><img src="img/ferramentas2.png"></div>
-          <div class="swiper-slide"><img src="img/ferramentas3.png"></div>
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
+    <div class="carousel">
+      <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/ferramentas1(2).png"></div>
+            <div class="swiper-slide"><img src="img/ferramentas2.png"></div>
+            <div class="swiper-slide"><img src="img/ferramentas3.png"></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
       </div>
-  
-      <!-- Swiper JS -->
+    
+        <!-- Swiper JS -->
       <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-  
+    
       <!-- Initialize Swiper -->
       <script>
-        var swiper = new Swiper(".mySwiper", {
+         var swiper = new Swiper(".mySwiper", {
           slidesPerView: 1,
           spaceBetween: 30,
           loop: true,
@@ -62,8 +63,10 @@
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
           },
-        });
+         });
       </script>
+    </div>
+
 
 </body>
 

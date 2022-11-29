@@ -14,7 +14,7 @@ body{
     overflow-x:hidden;
 }
 .nav{
-    margin-top: 65px;
+    margin-top: 6vh;
     /*background-color: blue;*/
     width: 100%;
     flex-direction: row;
@@ -23,9 +23,8 @@ body{
     align-items: center;
 }
 .logo{
-    margin-left: 200px;
-    /*background-color: blueviolet;*/
-    width: 400px;
+    margin-left: 10vh;
+    width: 70%;
     font-size: 90px;
     font-family: 'Jura', sans-serif;
 }
@@ -37,10 +36,10 @@ button{
     cursor: pointer;
 }
 .botoes{
-    margin-right: 200px;
+    width: 80%;
     /*background-color: crimson;*/
     font-family: 'Lexend', sans-serif;
-    font-size: 50px;
+    font-size: 6vh;
 }
 button{
     background: transparent;
@@ -58,10 +57,12 @@ a {
     text-decoration: none;
 }
 /*padrao do site*/
-
+.carousel{
+    width:100%;
+}
 .swiper {
-    width: 1180px;
-    height: 650px;
+    width: 80%;
+    height: 50vw;
   }
 
   .swiper-slide {
